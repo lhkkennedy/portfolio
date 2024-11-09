@@ -1,6 +1,8 @@
-<script lang="ts">
-	import '../app.css';
-	let { children } = $props();
+<script>
+    import "tailwindcss/tailwind.css";
+    import NavBar from "./NavBar.svelte"
 </script>
 
-{@render children()}
+<NavBar/>
+
+<slot />
